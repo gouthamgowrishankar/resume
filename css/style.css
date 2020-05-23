@@ -1,8 +1,9 @@
 body{
-    background: rgb(2,0,36);
+
     text-align: center;
     font-size: large;
-    background: linear-gradient(24deg, rgba(2,0,36,1) 0%, rgba(121,9,100,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgba(17,121,9,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 .card{
@@ -40,3 +41,8 @@ button{
     text-align: center;
 
 }
+
+#head{
+    font-size: 90%;
+}
+
