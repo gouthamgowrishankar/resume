@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css"></link>
+    <link rel="stylesheet" href="jqueryui\jquery-ui.css"></link>
+    <link rel="stylesheet" href="jqueryui\jquery-ui.structure.css"></link>
+    <link rel="stylesheet" href="jqueryui\jquery-ui.theme.css"></link>
+
+    
+</head>
+<body>
+    
+<h2 class="card"> career objective</h2>
+
+
+<p id="p1" >   To obtain a full time position that will enable me to use
+     my strong organizational skill, educational background,and ability to work well with people in the technology field.</p>
+<button onmouseout="fn3()" onclick="fn2()">click here to view contact details</button>
+<div id="contact">
+    <address>
+        484/4 I.C.F south colony<br>
+        6th street chennai-38<br>
+        <email>gouthamgowrishankar789@gmail.com</email>
+        <br>mobile no:-868007498
+    </address>
+
+</div>
+
+
+     <h2 class="card">Education detail</h2>
+
+
+<div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">ug(B.E)</a></li>
+      <li><a href="#tabs-2">12th(HSC)</a></li>
+      <li><a href="#tabs-3">10th(SSLC)</a></li>
+    </ul>
+
+     <div id="tabs-1">
+         <p ><b>Dhaanish ahmed college of enginnering</b><br>Electronics and communication engineering<br>CGPA:-6.75<br>2019 Batch</p>
+    </div>
+     <div id="tabs-2">
+         <p ><b>I.C.F silver jubiee matric hr.sec.school</b><br>percentage:- 82.83<br>2015 Batch</p>
+    </div>
+     <div id="tabs-3">
+         <p ><b> I.C.F silver jubiee matric hr.sec.school</b><br>percentage:- 87.00<br>2013 Batch</p>
+    </div>
+
+</div>
+<div id="ad">
+<mat-card class="card"><h2 class="card">TECHNICAL SKILLS</h2></mat-card>
+<ul>
+    <li>Software languages c,c++, python, HTML5, CSS3,Javascript,</li>
+    <li>operating system:windows</li>
+
+</ul>
+<mat-card class="card"><h2 class="card">Acheivements &Awards</h2></mat-card>
+<ul class="1"><h3>symposim participated</h3>
+    <li>Vellamal Engineering College</li>
+    <li>Panimalar Engineering College</li>
+    <li>sairam Engineering college</li>
+</ul>
+<mat-card class="card"><h2 class="card">Industrial visits</h2></mat-card>
+<ul class="1">
+    <li><abbr title="Neyveli Lignite Corporation">NLC</abbr></li>
+    <li><abbr title="National Atmospheric Research Laboratory">NARL</abbr></li>
+</ul>
+<mat-card class="card"><h2 class="card">Inplant Training and Workshops</h2></mat-card>
+<ul class="1" >
+    <li>Inplant Training in <b>Ashok Leyland</b></li>
+    <li>Airconditioner Workshop in <b>GODREJ</b></li>
+</ul>
+<mat-card class="card"><h2 class="card">Personal Strengths</h2></mat-card>
+<ul class="1">
+    <li>Punctuality</li>
+    <li>Easy Adapting</li>
+    <li>Patience</li>
+    <li>Elegant Team Player</li>
+    <li>Quick Learner</li>
+    <li>Strong Work Ethic</li>
+</ul>
+<mat-card class="card"><h2 class="card">Personal Profile</h2></mat-card>
+<ul class="1" style="margin-bottom: 10px;">
+    <li>Date Of Birth: 07/04/1998</li>
+    <li>Maritial Status: Single</li>
+    <li>Nationality: Indian</li>
+    <li>Known Languages: English,Tamil</li>
+    <li>Hobby: Sports-Cricket,Music-listening</li>
+</ul>
+<br>
+<br>
+</div>
+
+    
+</body>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $("#contact").fadeOut();
+$("#tabs").tabs({heightStyle:"auto",active:false});
+
+$("button").on({click:function (){
+    $("#contact").fadeIn(1000)},
+    mouseleave:function (){
+    $("#contact").fadeOut();}
+    
+        
+});
+
+
+
+
+
+</script>
+</html>

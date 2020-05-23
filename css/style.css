@@ -1,0 +1,42 @@
+body{
+    background: rgb(2,0,36);
+    text-align: center;
+    font-size: large;
+    background: linear-gradient(24deg, rgba(2,0,36,1) 0%, rgba(121,9,100,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.card{
+    background-color: #001f3f;
+    
+    color: beige;
+}
+ul{
+    display: inline;
+    list-style-position: center;
+}
+
+.ui-tabs .ui-tabs-nav li{
+
+    
+    display: inline-block;
+    ;
+    background-color: rgb(130, 238, 135);
+    
+
+}
+#contact{
+    padding: 2rem;
+    background-color: beige;
+    border-radius: 20px;
+    
+    
+}
+button{
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+#tabs{
+    
+    text-align: center;
+
+}
